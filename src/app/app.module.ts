@@ -7,7 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, Http, BaseRequestOptions } from '@angular/http';
-import { RouterModule } from '@angular/router'; 
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -43,7 +43,7 @@ import { NoAccessComponent } from './no-access/no-access.component';
 
     AuthService,
 
-    // For creating a mock back-end. You don't need these in a real app. 
+    // For creating a mock back-end. You don't need these in a real app.
     fakeBackendProvider,
     MockBackend,
     BaseRequestOptions

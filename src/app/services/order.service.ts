@@ -8,7 +8,7 @@ export class OrderService {
   constructor(private http: Http) {
   }
 
-  getOrders() { 
+  getOrders() {
     return this.http.get('/api/orders')
       .map(response => response.json());
   }
